@@ -4,6 +4,8 @@ title: 春末的普鲁斯特问卷
 categories: [blog, ]
 tags: [Life, Talk, ]
 description: 我的答案
+comment: true
+duoshuo: false
 ---
 
 ## 关于普鲁斯特问卷

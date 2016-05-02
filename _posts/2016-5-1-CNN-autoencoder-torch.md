@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Training Autoencoders on ImageNet Using Torch 7"
-comments: true
+categories: [Deep Learning]  
+tags: [CNN, Autoencoder, Unpooling, Torch]
 ---
 *If you are just looking for code for a convolutional autoencoder in Torch, look at this [git](https://github.com/siavashk/imagenet-autoencoder.git). There are only a few dependencies, and they have been listed in requirements.sh*
 

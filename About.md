@@ -11,7 +11,7 @@ header-img: "img/plane.jpg"
 
 I am an assistant professor of Institute of Automation, Chinese Academy of Sciences (CASIA) . My research interests are Pattern Recognition, Image Analysis and Processing, and Digital Image Forensics including watermarking, steganalysis and tampering detection. I am a member of IEEE and CCF.
 
-###Selected Publications
+##Selected Publications
 1. Xikai Xu, Jing Dong, Wei Wang, Tieniu Tan: *Robust steganalysis based on training set construction and ensemble classifiers weighting*. ICIP 2015: 1498-1502
 2. Bo Peng, Wei Wang, Jing Dong, Tieniu Tan: *Detection of computer generated faces in videos based on pulse signal*. ChinaSIP 2015: 841-845
 3. Bo Peng, Wei Wang, Jing Dong, Tieniu Tan: *Improved 3D lighting environment estimation for image forgery detection*. WIFS 2015: 1-6
@@ -28,5 +28,5 @@ I am an assistant professor of Institute of Automation, Chinese Academy of Scien
 14. Wei Wang, Jing Dong, Tieniu Tan: *A Survey of Passive Image Tampering Detection*. IWDW 2009: 308-322
 15. Jing Dong, Wei Wang, Tieniu Tan, Yun Q. Shi: *Run-Length and Edge Statistics Based Approach for Image Splicing Detection*. IWDW 2008: 76-87
 
-###Codes
+##Codes
 - *coming soon...*

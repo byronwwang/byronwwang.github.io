@@ -63,7 +63,7 @@ $$h_{t} = o_{t} \cdot tanh(c_{t})$$
 
 It can be pictured like this:
 
-<div class="images">
+<div align="center"; class="images">
   <img alt="LSTM cell diagram" src="/assets/posts/lstm-explained/cell.svg" style="width: 40%">
 </div>
 

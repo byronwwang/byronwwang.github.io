@@ -2,8 +2,10 @@
 layout: post
 title:  "LSTM implementation explained"
 date:   2016-07-15
+categories: [Deep Learning]  
+tags: [RNN, LSTM, Torch]
 ---
-<right>Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)</right>
+Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)
 
 ## Preface
 For a long time I've been looking for a good tutorial on implementing LSTM networks.
@@ -95,7 +97,7 @@ We will need the following layers:
 
 First, let's define the input structure. The array-like objects in lua
 are called tables. This network will accept a table of tensors like the one below:
-
+![Input](assets/posts/lstm-explained/input_table.svg ""Input table structure"")
 <div class="images">
   <img src="assets/posts/lstm-explained/input_table.svg" alt="Input table structure" style="width: 30%;"/>
 </div>

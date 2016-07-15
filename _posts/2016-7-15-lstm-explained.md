@@ -25,8 +25,9 @@ feedforward network implementation. It's the easiest to implement an RNN just
 as a feedforward network with some parts of the input feeding into the middle of the stack,
 and a bunch of outputs coming out from there as well. There is no magic internal state
 kept in the network. It's provided as a part of the input!
-
+<center>
 ![RNNvsFNN](/assets/posts/lstm-explained/RNNvsFNN.svg "The overall structure of RNNs is very similar to that of feedforward networks.")
+</center>
 
 ### LSTM refresher
 

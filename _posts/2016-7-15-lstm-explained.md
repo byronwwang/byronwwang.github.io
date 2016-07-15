@@ -5,7 +5,7 @@ date:   2016-07-15
 categories: [Deep Learning]  
 tags: [RNN, LSTM, Torch]
 ---
-Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)
+<p align="right">Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)</p>
 
 ## Preface
 For a long time I've been looking for a good tutorial on implementing LSTM networks.

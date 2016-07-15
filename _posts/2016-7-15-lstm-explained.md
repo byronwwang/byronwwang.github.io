@@ -29,12 +29,11 @@ kept in the network. It's provided as a part of the input!
 ![RNNvsFNN](/assets/posts/lstm-explained/RNNvsFNN.svg "The overall structure of RNNs is very similar to that of feedforward networks.")
 
 <div align="center">
-<img src="http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg"  alt="CSDN图标" />
- </div>
- 
- <center>
-![CSDN图标](http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg "这是CSDN的图标")
-</center>
+    <img src="/assets/posts/lstm-explained/RNNvsFNN.svg"  alt="RNN vs FNN" />
+    <div class="label">
+        The overall structure of RNNs is very similar to that of feedforward networks.
+    </div>
+</div>
 
 ### LSTM refresher
 

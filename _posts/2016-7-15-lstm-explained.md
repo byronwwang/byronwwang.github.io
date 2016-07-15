@@ -32,6 +32,7 @@ kept in the network. It's provided as a part of the input!
     The overall structure of RNNs is very similar to that of feedforward networks.
   </div>
 </div>
+![RNNvsFNN](/assets/posts/lstm-explained/RNNvsFNN.svg "The overall structure of RNNs is very similar to that of feedforward networks.")
 
 ### LSTM refresher
 

@@ -64,7 +64,7 @@ $$h_{t} = o_{t} \cdot tanh(c_{t})$$
 It can be pictured like this:
 
 <div class="images">
-  <img alt="LSTM cell diagram" src="assets/posts/lstm-explained/cell.svg" style="width: 40%">
+  <img alt="LSTM cell diagram" src="/assets/posts/lstm-explained/cell.svg" style="width: 40%">
 </div>
 
 Because of the gating mechanism the cell can keep a piece of information for long
@@ -98,7 +98,7 @@ We will need the following layers:
 First, let's define the input structure. The array-like objects in lua
 are called tables. This network will accept a table of tensors like the one below:
 <div class="images">
-  <img src="assets/posts/lstm-explained/input_table.svg" alt="Input table structure" style="width: 30%;"/>
+  <img src="/assets/posts/lstm-explained/input_table.svg" alt="Input table structure" style="width: 30%;"/>
 </div>
 
 {% highlight lua %}
@@ -137,8 +137,8 @@ and input of a cell number \\(i\\) are
 \\(\left\\{i,\ \text{rnn_size}+i,\ 2\cdot\text{rnn_size}+i,\  3\cdot\text{rnn_size}+i\right\\}\\)).
 
 <div class="images">
-  <img src="assets/posts/lstm-explained/graph1_full.svg" alt="First graph part" style="width: 30%;"/>
-  <img src="assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup" style="width: 40%;"/>
+  <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part" style="width: 30%;"/>
+  <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup" style="width: 40%;"/>
 </div>
 
 Next, we have to apply a nonlinearity, but while all the gates use the sigmoid,
@@ -164,8 +164,8 @@ local out_gate = nn.Narrow(2, 2 * rnn_size + 1, rnn_size)(all_gates)
 {% endhighlight %}
 
 <div class="images">
-  <img src="assets/posts/lstm-explained/graph2_full.svg" alt="Second graph part" style="width: 30%;"/>
-  <img src="assets/posts/lstm-explained/gates.svg" alt="Second part closeup" style="width: 40%;"/>
+  <img src="/assets/posts/lstm-explained/graph2_full.svg" alt="Second graph part" style="width: 30%;"/>
+  <img src="/assets/posts/lstm-explained/gates.svg" alt="Second part closeup" style="width: 40%;"/>
 </div>
 
 ### Cell and hidden state
@@ -196,8 +196,8 @@ local next_h = nn.CMulTable()({out_gate, c_transform})
 {% endhighlight %}
 
 <div class="images">
-  <img src="assets/posts/lstm-explained/graph3_full.svg" alt="Third graph part" style="width: 30%;"/>
-  <img src="assets/posts/lstm-explained/state_calculation.svg" alt="Third part closeup" style="width: 40%;"/>
+  <img src="/assets/posts/lstm-explained/graph3_full.svg" alt="Third graph part" style="width: 30%;"/>
+  <img src="/assets/posts/lstm-explained/state_calculation.svg" alt="Third part closeup" style="width: 40%;"/>
 </div>
 
 ### Defining the module

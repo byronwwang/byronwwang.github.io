@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "LSTM implementation explained"
-date:   2015-08-30 20:04:15
+date:   2016-07-15
 ---
+<right>Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)</right>
 
 ## Preface
 For a long time I've been looking for a good tutorial on implementing LSTM networks.

@@ -5,7 +5,7 @@ date:   2016-07-15
 categories: [Deep Learning]  
 tags: [RNN, LSTM, Torch]
 ---
-<p align="right">Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)</p>
+Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)
 
 ## Preface
 For a long time I've been looking for a good tutorial on implementing LSTM networks.
@@ -27,7 +27,7 @@ and a bunch of outputs coming out from there as well. There is no magic internal
 kept in the network. It's provided as a part of the input!
 
 <div class="images">
-  <img src="assets/posts/lstm-explained/RNNvsFNN.svg">
+  <img src="/assets/posts/lstm-explained/RNNvsFNN.svg">
   <div class="label">
     The overall structure of RNNs is very similar to that of feedforward networks.
   </div>

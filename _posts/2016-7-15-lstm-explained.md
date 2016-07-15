@@ -26,12 +26,6 @@ as a feedforward network with some parts of the input feeding into the middle of
 and a bunch of outputs coming out from there as well. There is no magic internal state
 kept in the network. It's provided as a part of the input!
 
-<div class="images">
-  <img src="/assets/posts/lstm-explained/RNNvsFNN.svg">
-  <div class="label">
-    The overall structure of RNNs is very similar to that of feedforward networks.
-  </div>
-</div>
 ![RNNvsFNN](/assets/posts/lstm-explained/RNNvsFNN.svg "The overall structure of RNNs is very similar to that of feedforward networks.")
 
 ### LSTM refresher

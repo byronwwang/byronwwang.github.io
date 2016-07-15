@@ -26,6 +26,10 @@ as a feedforward network with some parts of the input feeding into the middle of
 and a bunch of outputs coming out from there as well. There is no magic internal state
 kept in the network. It's provided as a part of the input!
 
+<center>
+    <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
+</center>
+
 <div align="center">
     <img src="/assets/posts/lstm-explained/RNNvsFNN.svg"  alt="RNN vs FNN" />
     <div class="label">

@@ -138,6 +138,8 @@ and input of a cell number \\(i\\) are
 
 <div align="center">
   <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part" style="width: 30%;"/>
+ </div>
+  <div align="center">
   <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup" style="width: 40%;"/>
 </div>
 

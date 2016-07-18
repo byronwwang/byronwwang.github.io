@@ -139,6 +139,10 @@ and input of a cell number \\(i\\) are
     <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part"/>
     <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup"/>
 </figure>
+<figure class="half">
+    <a href="/assets/posts/lstm-explained/graph1_full.svg"><img src="/assets/posts/lstm-explained/graph1_full.svg"></a>
+    <a href="/assets/posts/lstm-explained/preactivation_graph.svg"><img src="/assets/posts/lstm-explained/preactivation_graph.svg"></a>
+</figure>
 
 Next, we have to apply a nonlinearity, but while all the gates use the sigmoid,
 we will use a tanh for the input preactivation. Because of this, we will place two `nn.Narrow`

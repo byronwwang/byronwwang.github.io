@@ -135,15 +135,9 @@ of size `rnn_size`. The first will be used for in gates, second for forget gates
 third for out gates and the last one as a cell input (so the indices of respective gates
 and input of a cell number \\(i\\) are
 \\(\left\\{i,\ \text{rnn_size}+i,\ 2\cdot\text{rnn_size}+i,\  3\cdot\text{rnn_size}+i\right\\}\\)).
-<div align="center">
-  <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part" style="width: 30%;"/>
- </div>
-  <div align="center">
-  <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup" style="width: 40%;"/>
-</div>
 <figure class="half">
-    <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part" style="width: 30%;"/>
-    <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup" style="width: 40%;"/>
+    <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part"/>
+    <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup"/>
 </figure>
 
 Next, we have to apply a nonlinearity, but while all the gates use the sigmoid,

@@ -162,10 +162,10 @@ local forget_gate = nn.Narrow(2, rnn_size + 1, rnn_size)(all_gates)
 local out_gate = nn.Narrow(2, 2 * rnn_size + 1, rnn_size)(all_gates)
 {% endhighlight %}
 
-<div align="center">
-  <img src="/assets/posts/lstm-explained/graph2_full.svg" alt="Second graph part" />
-  <img src="/assets/posts/lstm-explained/gates.svg" alt="Second part closeup" />
-</div>
+<figure class="half">
+  <a href="/assets/posts/lstm-explained/graph2_full.svg"><img src="/assets/posts/lstm-explained/graph2_full.svg" alt="Second graph part" /></a>
+  <a href="/assets/posts/lstm-explained/gates.svg"><img src="/assets/posts/lstm-explained/gates.svg" alt="Second part closeup" /></a>
+</figure>
 
 ### Cell and hidden state
 
@@ -194,10 +194,10 @@ local c_transform = nn.Tanh()(next_c)
 local next_h = nn.CMulTable()({out_gate, c_transform})
 {% endhighlight %}
 
-<div align="center">
-  <img src="/assets/posts/lstm-explained/graph3_full.svg" alt="Third graph part" />
-  <img src="/assets/posts/lstm-explained/state_calculation.svg" alt="Third part closeup"/>
-</div>
+<figure class="half">
+  <a href="/assets/posts/lstm-explained/graph3_full.svg"><img src="/assets/posts/lstm-explained/graph3_full.svg" alt="Third graph part" /></a>
+  <a href="/assets/posts/lstm-explained/state_calculation.svg"><img src="/assets/posts/lstm-explained/state_calculation.svg" alt="Third part closeup"/></a>
+</figure>
 
 ### Defining the module
 

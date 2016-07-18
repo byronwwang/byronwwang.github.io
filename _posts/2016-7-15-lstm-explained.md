@@ -63,9 +63,9 @@ $$h_{t} = o_{t} \cdot tanh(c_{t})$$
 
 It can be pictured like this:
 
-<center>
+<div align="center">
   <img alt="LSTM cell diagram" src="/assets/posts/lstm-explained/cell.svg" style="width: 40%">
-</center>
+</div>
 
 Because of the gating mechanism the cell can keep a piece of information for long
 periods of time during work and protect the gradient inside the cell from harmful changes during the training.

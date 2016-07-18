@@ -135,7 +135,7 @@ third for out gates and the last one as a cell input (so the indices of respecti
 and input of a cell number \\(i\\) are
 \\(\left\\{i,\ \text{rnn_size}+i,\ 2\cdot\text{rnn_size}+i,\  3\cdot\text{rnn_size}+i\right\\}\\)).
 
-<figure class="half">
+<figure>
     <a href="/assets/posts/lstm-explained/graph1_full.svg"><img src="/assets/posts/lstm-explained/graph1_full.svg"></a>
 </figure>
 

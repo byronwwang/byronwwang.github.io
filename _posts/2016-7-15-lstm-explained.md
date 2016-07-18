@@ -5,7 +5,6 @@ date:   2016-07-15
 categories: [Deep Learning]  
 tags: [RNN, LSTM, Torch]
 ---
-Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)
 
 ## Preface
 For a long time I've been looking for a good tutorial on implementing LSTM networks.
@@ -98,7 +97,7 @@ We will need the following layers:
 First, let's define the input structure. The array-like objects in lua
 are called tables. This network will accept a table of tensors like the one below:
 <div align="center">
-  <img src="/assets/posts/lstm-explained/input_table.svg" alt="Input table structure" style="width: 30%;"/>
+  <img src="/assets/posts/lstm-explained/input_table.svg" alt="Input table structure" style="width: 20%;"/>
 </div>
 
 {% highlight lua %}
@@ -164,8 +163,8 @@ local out_gate = nn.Narrow(2, 2 * rnn_size + 1, rnn_size)(all_gates)
 {% endhighlight %}
 
 <div align="center">
-  <img src="/assets/posts/lstm-explained/graph2_full.svg" alt="Second graph part" style="width: 30%;"/>
-  <img src="/assets/posts/lstm-explained/gates.svg" alt="Second part closeup" style="width: 40%;"/>
+  <img src="/assets/posts/lstm-explained/graph2_full.svg" alt="Second graph part" />
+  <img src="/assets/posts/lstm-explained/gates.svg" alt="Second part closeup" />
 </div>
 
 ### Cell and hidden state
@@ -196,8 +195,8 @@ local next_h = nn.CMulTable()({out_gate, c_transform})
 {% endhighlight %}
 
 <div align="center">
-  <img src="/assets/posts/lstm-explained/graph3_full.svg" alt="Third graph part" style="width: 30%;"/>
-  <img src="/assets/posts/lstm-explained/state_calculation.svg" alt="Third part closeup" style="width: 40%;"/>
+  <img src="/assets/posts/lstm-explained/graph3_full.svg" alt="Third graph part" />
+  <img src="/assets/posts/lstm-explained/state_calculation.svg" alt="Third part closeup"/>
 </div>
 
 ### Defining the module
@@ -252,6 +251,7 @@ Here are some nice papers on RNNs if you're interested:
 * [Recurrent Neural Network Regularization](http://arxiv.org/abs/1409.2329)
 * [Sequence to Sequence Learning with Neural Networks](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
 
+Original link: [http://apaszke.github.io/lstm-explained.html](http://apaszke.github.io/lstm-explained.html)
 
 <script>
   var disqus_identifier = 'lstm-explained';

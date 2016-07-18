@@ -63,9 +63,9 @@ $$h_{t} = o_{t} \cdot tanh(c_{t})$$
 
 It can be pictured like this:
 
-<div align="center">
+<figure>
   <img alt="LSTM cell diagram" src="/assets/posts/lstm-explained/cell.svg" style="width: 40%">
-</div>
+</figure>
 
 Because of the gating mechanism the cell can keep a piece of information for long
 periods of time during work and protect the gradient inside the cell from harmful changes during the training.
@@ -135,10 +135,7 @@ of size `rnn_size`. The first will be used for in gates, second for forget gates
 third for out gates and the last one as a cell input (so the indices of respective gates
 and input of a cell number \\(i\\) are
 \\(\left\\{i,\ \text{rnn_size}+i,\ 2\cdot\text{rnn_size}+i,\  3\cdot\text{rnn_size}+i\right\\}\\)).
-<figure class="half">
-    <img src="/assets/posts/lstm-explained/graph1_full.svg" alt="First graph part"/>
-    <img src="/assets/posts/lstm-explained/preactivation_graph.svg" alt="First part closeup"/>
-</figure>
+
 <figure class="half">
     <a href="/assets/posts/lstm-explained/graph1_full.svg"><img src="/assets/posts/lstm-explained/graph1_full.svg"></a>
     <a href="/assets/posts/lstm-explained/preactivation_graph.svg"><img src="/assets/posts/lstm-explained/preactivation_graph.svg"></a>

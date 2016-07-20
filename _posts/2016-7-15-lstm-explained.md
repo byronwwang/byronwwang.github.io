@@ -16,6 +16,8 @@ to use LSTMs and finally learn how they work. I based [my solution](https://gith
 by [Andrej Karpathy](https://karpathy.github.io),
 which I highly recommend you to check out.
 
+{% gist szagoruyko/88325ec8f8f5c67e863e %}
+
 ### RNN misconception
 There is one important thing that as I feel
 hasn't been emphasized strongly enough (and is the main reason why I couldn't get myself to

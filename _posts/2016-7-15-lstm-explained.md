@@ -17,7 +17,6 @@ by [Andrej Karpathy](https://karpathy.github.io),
 which I highly recommend you to check out.
 
 {% gist byronwwang/d8245f1d33ead7ab1f5cf5c9679d4b4b %}
-<script src="https://gist.github.com/byronwwang/d8245f1d33ead7ab1f5cf5c9679d4b4b.js"></script>
 
 ### RNN misconception
 There is one important thing that as I feel

@@ -27,19 +27,10 @@ github_username: byronwwang
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
-# markdown: kramdown
-# kramdown:
-#   input: GFM
-# highlighter: rouge
-
-relative_permalinks: false
-markdown: redcarpet
-redcarpet:
-    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
-safe: true
-lsi: false
-highlighter: pygments
+markdown: kramdown
+kramdown:
+ input: GFM
+highlighter: rouge
 
 gems: 
 - jekyll-gallery-generator
